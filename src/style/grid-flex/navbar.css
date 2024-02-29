@@ -1,0 +1,11 @@
+.navbar__itens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar__itens button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: .4rem;
+}
